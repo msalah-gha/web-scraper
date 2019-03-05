@@ -1,0 +1,11 @@
+Started by timer
+Building in workspace /var/jenkins_home/workspace/Task-1
+[Task-1] $ /bin/sh -xe /tmp/jenkins2638157565545049288.sh
++ php /var/jenkins_home/task.php
+PHP Fatal error:  Uncaught Error: Call to undefined function curl_init() in /var/jenkins_home/task.php:3
+Stack trace:
+#0 /var/jenkins_home/task.php(38): callAPI('GET', 'http://dojodevo...', false)
+#1 {main}
+  thrown in /var/jenkins_home/task.php on line 3
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

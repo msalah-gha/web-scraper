@@ -1,0 +1,24 @@
+version: "3"
+services:
+  jenkins:
+    image: jenkinsci/jenkins
+    privileged: true
+    user: root
+    ports:
+      - "8080:8080"
+    container_name: jenkins
+    volumes:
+      - ./jenkins:/var/jenkins_home:rw
+      - ./dev-tasks:/var/dev-tasks:rw
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /usr/bin/docker:/usr/bin/docker
+    restart: always
+  nginx:
+    image: nginx
+    ports:
+      - "8989:80"
+    container_name: nginx
+    volumes:
+      - ./dev-tasks:/usr/share/nginx/html:rw
+    restart: always
+

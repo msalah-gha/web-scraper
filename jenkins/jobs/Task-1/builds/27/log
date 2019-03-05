@@ -1,0 +1,5 @@
+Started by user [8mha:////4A64UHfE6YE+1BtC7c8TCd8cieksF7sUhoigTchiRrwAAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgYe/dLi1CL93OLEnMQMAJV3pozBAAAA[0mMohamed Salah
+Building in workspace /var/jenkins_home/workspace/Task-1
+[Task-1] $ /bin/sh -xe /tmp/jenkins511677463401323283.sh
++ php /var/jenkins_home/task.php
+Finished: SUCCESS

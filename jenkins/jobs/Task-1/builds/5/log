@@ -1,0 +1,7 @@
+Started by timer
+Building in workspace /var/jenkins_home/workspace/Task-1
+[Task-1] $ /bin/sh -xe /tmp/jenkins2750942544645473914.sh
++ php /var/jenkins_home/task.php
+/tmp/jenkins2750942544645473914.sh: 2: /tmp/jenkins2750942544645473914.sh: php: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

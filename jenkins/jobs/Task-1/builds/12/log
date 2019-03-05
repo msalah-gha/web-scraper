@@ -1,0 +1,5 @@
+Started by timer
+Building in workspace /var/jenkins_home/workspace/Task-1
+[Task-1] $ /bin/sh -xe /tmp/jenkins1397427229777673551.sh
++ php /var/jenkins_home/task.php
+Heavy givers are light complainers.Finished: SUCCESS

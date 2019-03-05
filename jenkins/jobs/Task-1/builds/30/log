@@ -1,0 +1,37 @@
+Started by user [8mha:////4A64UHfE6YE+1BtC7c8TCd8cieksF7sUhoigTchiRrwAAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgYe/dLi1CL93OLEnMQMAJV3pozBAAAA[0mMohamed Salah
+Building in workspace /var/jenkins_home/workspace/Task-1
+[Task-1] $ /bin/sh -xe /tmp/jenkins3205193827436603389.sh
++ apt-get update
+Ign:1 http://deb.debian.org/debian stretch InRelease
+Get:2 http://security.debian.org/debian-security stretch/updates InRelease [94.3 kB]
+Get:3 http://deb.debian.org/debian stretch-updates InRelease [91.0 kB]
+Get:4 http://deb.debian.org/debian stretch Release [118 kB]
+Get:5 http://security.debian.org/debian-security stretch/updates/main amd64 Packages [475 kB]
+Get:6 http://deb.debian.org/debian stretch Release.gpg [2434 B]
+Get:7 http://deb.debian.org/debian stretch-updates/main amd64 Packages [11.1 kB]
+Get:8 http://deb.debian.org/debian stretch/main amd64 Packages [7084 kB]
+Fetched 7876 kB in 19s (401 kB/s)
+Reading package lists...
++ apt-get install php
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapache2-mod-php7.0
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0 libmagic-mgc libmagic1
+  php-common php7.0 php7.0-cli php7.0-common php7.0-json php7.0-opcache
+  php7.0-readline psmisc ssl-cert
+Suggested packages:
+  www-browser apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+  php-pear file openssl-blacklist
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapache2-mod-php7.0
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0 libmagic-mgc libmagic1
+  php php-common php7.0 php7.0-cli php7.0-common php7.0-json php7.0-opcache
+  php7.0-readline psmisc ssl-cert
+0 upgraded, 20 newly installed, 0 to remove and 38 not upgraded.
+Need to get 5995 kB of archives.
+After this operation, 26.5 MB of additional disk space will be used.
+Do you want to continue? [Y/n] Abort.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,7 @@
+Started by user [8mha:////4A64UHfE6YE+1BtC7c8TCd8cieksF7sUhoigTchiRrwAAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgYe/dLi1CL93OLEnMQMAJV3pozBAAAA[0mMohamed Salah
+Building in workspace /var/jenkins_home/workspace/Task-1
+[Task-1] $ /bin/sh -xe /tmp/jenkins8707888089992975314.sh
++ php /var/jenkins_home/task.php
+/tmp/jenkins8707888089992975314.sh: 2: /tmp/jenkins8707888089992975314.sh: php: not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

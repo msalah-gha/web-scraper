@@ -1,0 +1,6 @@
+Started by timer
+Building in workspace /var/jenkins_home/workspace/Task-1
+[Task-1] $ /bin/sh -xe /tmp/jenkins7747651429636292728.sh
++ php /var/jenkins_home/task.php
+Old friends and old wine are best.+ touch /var/jenkins_home/task.html
+Finished: SUCCESS
