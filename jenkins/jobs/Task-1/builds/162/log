@@ -277,3 +277,42 @@ Enabling module mpm_prefork.
 apache2_switch_mpm Switch to prefork
 invoke-rc.d: could not determine current runlevel
 invoke-rc.d: policy-rc.d denied execution of restart.
+apache2_invoke: Enable module php7.0
+invoke-rc.d: could not determine current runlevel
+invoke-rc.d: policy-rc.d denied execution of restart.
+Setting up php7.0 (7.0.33-0+deb9u2) ...
+Setting up php (1:7.0+49) ...
+Processing triggers for libc-bin (2.24-11+deb9u3) ...
++ apt-get install -y php-curl
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  php7.0-curl
+The following NEW packages will be installed:
+  php-curl php7.0-curl
+0 upgraded, 2 newly installed, 0 to remove and 38 not upgraded.
+Need to get 32.4 kB of archives.
+After this operation, 130 kB of additional disk space will be used.
+Get:1 http://security.debian.org/debian-security stretch/updates/main amd64 php7.0-curl amd64 7.0.33-0+deb9u2 [27.4 kB]
+Get:2 http://deb.debian.org/debian stretch/main amd64 php-curl all 1:7.0+49 [5048 B]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 32.4 kB in 0s (64.6 kB/s)
+Selecting previously unselected package php7.0-curl.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 22361 files and directories currently installed.)
+Preparing to unpack .../php7.0-curl_7.0.33-0+deb9u2_amd64.deb ...
+Unpacking php7.0-curl (7.0.33-0+deb9u2) ...
+Selecting previously unselected package php-curl.
+Preparing to unpack .../php-curl_1%3a7.0+49_all.deb ...
+Unpacking php-curl (1:7.0+49) ...
+Processing triggers for libapache2-mod-php7.0 (7.0.33-0+deb9u2) ...
+Setting up php7.0-curl (7.0.33-0+deb9u2) ...
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+
+Creating config file /etc/php/7.0/mods-available/curl.ini with new version
+Setting up php-curl (1:7.0+49) ...
+Processing triggers for libapache2-mod-php7.0 (7.0.33-0+deb9u2) ...
++ php /var/dev-tasks/task.php
+Finished: SUCCESS

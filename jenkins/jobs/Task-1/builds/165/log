@@ -1,0 +1,23 @@
+Started by timer
+Building in workspace /var/jenkins_home/workspace/Task-1
+[Task-1] $ /bin/sh -xe /tmp/jenkins914537053561506604.sh
++ apt-get update
+Hit:1 http://security.debian.org/debian-security stretch/updates InRelease
+Ign:2 http://cdn-fastly.deb.debian.org/debian stretch InRelease
+Hit:3 http://cdn-fastly.deb.debian.org/debian stretch-updates InRelease
+Hit:4 http://cdn-fastly.deb.debian.org/debian stretch Release
+Reading package lists...
++ apt-get install -y php
+Reading package lists...
+Building dependency tree...
+Reading state information...
+php is already the newest version (1:7.0+49).
+0 upgraded, 0 newly installed, 0 to remove and 38 not upgraded.
++ apt-get install -y php-curl
+Reading package lists...
+Building dependency tree...
+Reading state information...
+php-curl is already the newest version (1:7.0+49).
+0 upgraded, 0 newly installed, 0 to remove and 38 not upgraded.
++ php /var/dev-tasks/task.php
+Finished: SUCCESS
