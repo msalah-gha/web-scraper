@@ -10,8 +10,6 @@ services:
     volumes:
       - ./jenkins:/var/jenkins_home:rw
       - ./dev-tasks:/var/dev-tasks:rw
-      - /var/run/docker.sock:/var/run/docker.sock
-      - /usr/bin/docker:/usr/bin/docker
     restart: always
   nginx:
     image: nginx
